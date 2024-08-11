@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/x-icon" href="img/computer-icons-simple-calculator-download-android-application-package-icon-calculator-svg-removebg-preview.png">
+    <title>KJP's Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main-box">
+       <div class="main-children">
+        <input class="rows total" id="total" type="text" readonly></input>
+        <div class="rows">
+            <div><button class="box nw" id="seven" onclick="dependOnclIck('7')">7</button></div>
+            <div><button class="box nw" id="eight" onclick="dependOnclIck('8')">8</button></div>
+            <div><button class="box nw" id="nine" onclick="dependOnclIck('9')">9</button></div>
+            <div><button class="box sw" id="divide" onclick="dependOnclIck('/')">÷</button></div>
+        </div>
+        <div class="rows">
+            <div><button class="box nw" id="four" onclick="dependOnclIck('4')">4</button></div>
+            <div><button class="box nw" id="five" onclick="dependOnclIck('5')">5</button></div>
+            <div><button class="box nw" id="six" onclick="dependOnclIck('6')">6</button></div>
+            <div><button class="box sw" id="multiply" onclick="dependOnclIck('*')">x</button></div>
+        </div>
+        <div class="rows">
+            <div><button class="box nw" id="one" onclick="dependOnclIck('1')">1</button></div>
+            <div><button class="box nw" id="two" onclick="dependOnclIck('2')">2</button></div>
+            <div><button class="box nw" id="three" onclick="dependOnclIck('3')">3</button></div>
+            <div><button class="box sw" id="minus" onclick="dependOnclIck('-')">-</button></div>
+        </div>
+        <div class="rows">
+            <div><button class="box nw" id="dot" onclick="dependOnclIck('.')">.</button></div>
+            <div><button class="box nw" id="zero" onclick="dependOnclIck('0')">0</button></div>
+            <div><button class="box sw" id="equals" onclick="cacuLate('')">=</button></div>
+            <div><button class="box sw" id="plus" onclick="dependOnclIck('+')">+</button></div>
+        </div>
+        <div class="rows">
+            <div><button class="box sw" id="all-clear" onclick="AllcLear('')">AC</button></div>
+        </div>
+    </div>
+    </div>
+    <script src="Caculator.js"></script>
+</body>
+</html>
